@@ -1,12 +1,12 @@
 # RCE - Level 2
 
-**分类:** Web | HTTP协议
+**分类:** Web | HTTP 协议
 
 **难度:** ⭐
 
 **Author:** St4rry
 
-> 一些简单的http协议的请求你知道吗？
+> 一些简单的 http 协议的请求你知道吗？
 
 > flag 格式为`HUBUMARS{flag}`
 
@@ -16,7 +16,7 @@
 
 ## WriteUp
 
-GET请求: `?name=YourName`
+GET 请求: `?name=YourName`
 
 Post 请求: `age=YourAge`
 
@@ -26,4 +26,6 @@ Post 请求: `age=YourAge`
 
 Cookie: `Cookie:HUBUMARS=True`
 
-伪造IP： `X-Forwarded-For`行不通，试试其他的, `Client-IP:11.45.1.4`
+伪造 IP： `X-Forwarded-For`行不通，试试其他的, `Client-IP:11.45.1.4`
+
+重定向
