@@ -1,0 +1,5 @@
+<?php
+
+$flag = getenv('FLAG');
+
+?>
